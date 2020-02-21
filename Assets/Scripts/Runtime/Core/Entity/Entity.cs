@@ -7,6 +7,6 @@ namespace RTS.Core
 	/// </summary>
 	public abstract class Entity : ScriptableObject
 	{
-
+		public Renderer mesh = default;
 	}
 }

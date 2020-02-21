@@ -5,27 +5,12 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="RTS_Camera" t="Include">
-          <e p="Demo" t="Include">
-            <e p="DemoScene.cs" t="Include" />
-            <e p="Projectors" t="Include">
-              <e p="Guidelines.txt" t="Include" />
-              <e p="Shaders" t="Include">
-                <e p="ProjectorLight.shader" t="Include" />
-                <e p="ProjectorMultiply.shader" t="Include" />
-              </e>
-            </e>
-            <e p="TargetSelector.cs" t="Include" />
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Editor" t="Include">
-              <e p="LayoutHelpers.cs" t="Include" />
-              <e p="RTS_CameraEditor.cs" t="Include" />
-            </e>
-            <e p="RTS_Camera.cs" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Tile" t="Include">
+              <e p="Tile3DEditor.cs" t="Include" />
+            </e>
+          </e>
           <e p="Runtime" t="Include">
             <e p="Core" t="Include">
               <e p="Ability" t="Include">
@@ -56,6 +41,12 @@
               </e>
             </e>
             <e p="RTSConstant.cs" t="Include" />
+            <e p="Tools" t="Include">
+              <e p="Tile" t="Include">
+                <e p="Tile3D.cs" t="Include" />
+                <e p="Vector3Ext.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
       </e>
