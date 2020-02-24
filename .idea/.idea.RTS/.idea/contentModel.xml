@@ -14,6 +14,8 @@
         </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
+            <e p="EditMultiTerrain.cs" t="Include" />
+            <e p="EditPrefab.cs" t="Include" />
             <e p="RuntimeTagGenerator.cs" t="Include" />
           </e>
           <e p="Runtime" t="Include">
@@ -64,6 +66,11 @@
               </e>
             </e>
           </e>
+        </e>
+        <e p="UnityHub" t="Include">
+          <e p="Damager.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="Sword.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
